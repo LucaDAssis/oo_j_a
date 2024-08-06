@@ -55,6 +55,6 @@ public class ContaBanco {
 
     @Override
     public String toString() {
-        return name + ", " + valorInicial + ", " + numConta;
+        return name + ", Saldo: " + String.format("%.2f",valorInicial) + " , Numero Da Conta: " + numConta;
     }
 }
